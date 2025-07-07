@@ -1,0 +1,41 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "CSS Border Types",
+  "description": "CSS border-specific data types",
+  "$defs": {
+    "borderWidthKeyword": {
+      "type": "string",
+      "enum": ["thin", "medium", "thick"],
+      "description": "CSS border-width keyword values"
+    },
+    "borderWidthLength": {
+      "type": "string",
+      "pattern": "^(\\d+(\\.\\d+)?(px|em|rem|ex|ch|ic|lh|rlh|vw|vh|vi|vb|vmin|vmax|cm|mm|Q|in|pc|pt|cap|rcap|rch|rex|rfw|ric|rlh|rrem|rvw|rvh|rvmin|rvmax|dvw|dvh|dvmin|dvmax|lvw|lvh|lvmin|lvmax|svw|svh|svmin|svmax)|0|calc\\(.+\\)|var\\(.+\\))$",
+      "description": "CSS border-width <length> value (non-negative lengths only, percentages not allowed)"
+    },
+    "borderWidth": {
+      "oneOf": [
+        { "$ref": "#/$defs/borderWidthKeyword" },
+        { "$ref": "#/$defs/borderWidthLength" }
+      ],
+      "description": "CSS <line-width> = <length [0,∞]> | thin | medium | thick"
+    },
+    "borderStyle": {
+      "type": "string",
+      "enum": ["none", "hidden", "dotted", "dashed", "solid", "double", "groove", "ridge", "inset", "outset"],
+      "description": "CSS <line-style> border style values"
+    },
+    "borderColor": {
+      "$ref": "css-color-types.json#/$defs/color",
+      "description": "CSS <color> value for borders"
+    },
+    "borderShorthand": {
+      "type": "string",
+      "description": "CSS border shorthand: <line-width> || <line-style> || <color> (any order, all optional)"
+    },
+    "borderRadius": {
+      "$ref": "css-data-types.json#/$defs/lengthPercentage",
+      "description": "CSS border-radius value: <length-percentage>"
+    }
+  }
+} 

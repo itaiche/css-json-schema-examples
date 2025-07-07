@@ -1,0 +1,56 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "type": "object",
+  "title": "CSS Margin Properties",
+  "description": "CSS margin properties fully compliant with CSS specifications",
+  "properties": {
+    "margin": {
+      "$ref": "css-margin-types.json#/$defs/marginShorthand",
+      "description": "Shorthand property that sets margins on all four sides",
+      "examples": ["10px", "10px 20px", "10px 20px 30px", "10px 20px 30px 40px", "auto", "0 auto"]
+    },
+    "marginTop": {
+      "$ref": "css-margin-types.json#/$defs/marginValue",
+      "description": "Sets the margin area on the top side of an element"
+    },
+    "marginRight": {
+      "$ref": "css-margin-types.json#/$defs/marginValue",
+      "description": "Sets the margin area on the right side of an element"
+    },
+    "marginBottom": {
+      "$ref": "css-margin-types.json#/$defs/marginValue",
+      "description": "Sets the margin area on the bottom side of an element"
+    },
+    "marginLeft": {
+      "$ref": "css-margin-types.json#/$defs/marginValue",
+      "description": "Sets the margin area on the left side of an element"
+    },
+    "marginBlock": {
+      "$ref": "css-margin-types.json#/$defs/marginShorthand",
+      "description": "Logical property that sets the block-start and block-end margins",
+      "examples": ["10px", "10px 20px", "auto"]
+    },
+    "marginInline": {
+      "$ref": "css-margin-types.json#/$defs/marginShorthand",
+      "description": "Logical property that sets the inline-start and inline-end margins",
+      "examples": ["10px", "10px 20px", "auto"]
+    },
+    "marginBlockStart": {
+      "$ref": "css-margin-types.json#/$defs/marginValue",
+      "description": "Logical property that sets the margin in the block-start direction"
+    },
+    "marginBlockEnd": {
+      "$ref": "css-margin-types.json#/$defs/marginValue",
+      "description": "Logical property that sets the margin in the block-end direction"
+    },
+    "marginInlineStart": {
+      "$ref": "css-margin-types.json#/$defs/marginValue",
+      "description": "Logical property that sets the margin in the inline-start direction"
+    },
+    "marginInlineEnd": {
+      "$ref": "css-margin-types.json#/$defs/marginValue",
+      "description": "Logical property that sets the margin in the inline-end direction"
+    }
+  },
+  "additionalProperties": false
+} 

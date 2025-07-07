@@ -1,0 +1,188 @@
+{
+  "title": "CSS Margin Examples",
+  "description": "Comprehensive examples demonstrating valid margin configurations",
+  "categories": {
+    "basic": [
+      {
+        "name": "Equal margins all sides",
+        "margin": "20px"
+      },
+      {
+        "name": "Vertical and horizontal margins",
+        "margin": "10px 20px"
+      },
+      {
+        "name": "Top, horizontal, bottom margins",
+        "margin": "10px 20px 30px"
+      },
+      {
+        "name": "All four sides different",
+        "margin": "10px 20px 30px 40px"
+      },
+      {
+        "name": "Auto margin (centering)",
+        "margin": "0 auto"
+      },
+      {
+        "name": "Individual margin properties",
+        "marginTop": "10px",
+        "marginRight": "20px",
+        "marginBottom": "15px",
+        "marginLeft": "25px"
+      },
+      {
+        "name": "No margins",
+        "margin": "0"
+      },
+      {
+        "name": "Auto top and bottom",
+        "marginTop": "auto",
+        "marginBottom": "auto",
+        "marginLeft": "10px",
+        "marginRight": "10px"
+      }
+    ],
+    "advanced_values": [
+      {
+        "name": "Negative margins",
+        "marginTop": "-10px",
+        "marginLeft": "-20px"
+      },
+      {
+        "name": "Mixed positive and negative",
+        "margin": "-5px 10px 15px -20px"
+      },
+      {
+        "name": "CSS variables",
+        "margin": "var(--spacing-md)",
+        "marginTop": "var(--spacing-lg, 24px)"
+      },
+      {
+        "name": "Calc() expressions",
+        "marginTop": "calc(100vh - 200px)",
+        "marginLeft": "calc(50% - 150px)"
+      },
+      {
+        "name": "Different length units",
+        "marginTop": "2rem",
+        "marginRight": "5%",
+        "marginBottom": "1.5em",
+        "marginLeft": "24px"
+      },
+      {
+        "name": "Viewport units",
+        "margin": "5vh 10vw"
+      },
+      {
+        "name": "Percentage margins",
+        "margin": "10% 5%"
+      },
+      {
+        "name": "Complex calc with variables",
+        "margin": "calc(var(--base-margin) * 2) auto"
+      }
+    ],
+    "logical_properties": [
+      {
+        "name": "Block margins (vertical in LTR)",
+        "marginBlock": "20px"
+      },
+      {
+        "name": "Inline margins (horizontal in LTR)",
+        "marginInline": "15px"
+      },
+      {
+        "name": "Different block start and end",
+        "marginBlock": "10px 20px"
+      },
+      {
+        "name": "Different inline start and end",
+        "marginInline": "5px 25px"
+      },
+      {
+        "name": "Individual logical properties",
+        "marginBlockStart": "15px",
+        "marginBlockEnd": "10px",
+        "marginInlineStart": "20px",
+        "marginInlineEnd": "5px"
+      },
+      {
+        "name": "Auto block margins",
+        "marginBlock": "auto"
+      },
+      {
+        "name": "Mixed logical and physical",
+        "marginBlock": "20px",
+        "marginLeft": "10px"
+      }
+    ],
+    "real_world": [
+      {
+        "name": "Container centering",
+        "margin": "0 auto"
+      },
+      {
+        "name": "Section spacing",
+        "marginBottom": "2rem"
+      },
+      {
+        "name": "Card component spacing",
+        "margin": "1rem"
+      },
+      {
+        "name": "List item spacing",
+        "marginBottom": "0.5rem"
+      },
+      {
+        "name": "Header spacing",
+        "marginTop": "0",
+        "marginBottom": "1.5rem"
+      },
+      {
+        "name": "Button group spacing",
+        "marginRight": "0.5rem",
+        "marginBottom": "0.5rem"
+      },
+      {
+        "name": "Form field spacing",
+        "marginBottom": "1rem"
+      },
+      {
+        "name": "Sidebar spacing",
+        "marginRight": "2rem"
+      },
+      {
+        "name": "Hero section",
+        "marginTop": "4rem",
+        "marginBottom": "4rem"
+      },
+      {
+        "name": "Pullquote negative margins",
+        "marginLeft": "-2rem",
+        "marginRight": "-2rem"
+      },
+      {
+        "name": "Mobile responsive spacing",
+        "margin": "1rem",
+        "marginTop": "calc(env(safe-area-inset-top) + 1rem)"
+      },
+      {
+        "name": "Grid item spacing",
+        "margin": "0.5rem"
+      },
+      {
+        "name": "Modal centering",
+        "margin": "auto"
+      },
+      {
+        "name": "Toast notification positioning",
+        "marginTop": "1rem",
+        "marginRight": "1rem"
+      },
+      {
+        "name": "Article paragraph spacing",
+        "marginBottom": "1.2em"
+      }
+    ]
+  }
+} 

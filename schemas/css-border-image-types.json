@@ -1,0 +1,32 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "CSS Border Image Types",
+  "description": "CSS border image specific data types",
+  "$defs": {
+    "borderImageSlice": {
+      "type": "string",
+      "pattern": "^(\\d+(\\.\\d+)?%?|fill)?(\\s+(\\d+(\\.\\d+)?%?|fill))?(\\s+(\\d+(\\.\\d+)?%?|fill))?(\\s+(\\d+(\\.\\d+)?%?|fill))?$",
+      "description": "CSS border-image-slice value"
+    },
+    "borderImageWidth": {
+      "type": "string",
+      "pattern": "^(\\d+(\\.\\d+)?(px|em|rem|ex|ch|ic|lh|rlh|vw|vh|vi|vb|vmin|vmax|cm|mm|Q|in|pc|pt|cap|rcap|rch|rex|rfw|ric|rlh|rrem|rvw|rvh|rvmin|rvmax|dvw|dvh|dvmin|dvmax|lvw|lvh|lvmin|lvmax|svw|svh|svmin|svmax)|\\d+|auto)$",
+      "description": "CSS border-image-width value"
+    },
+    "borderImageOutset": {
+      "type": "string",
+      "pattern": "^(\\d+(\\.\\d+)?(px|em|rem|ex|ch|ic|lh|rlh|vw|vh|vi|vb|vmin|vmax|cm|mm|Q|in|pc|pt|cap|rcap|rch|rex|rfw|ric|rlh|rrem|rvw|rvh|rvmin|rvmax|dvw|dvh|dvmin|dvmax|lvw|lvh|lvmin|lvmax|svw|svh|svmin|svmax)|\\d+)$",
+      "description": "CSS border-image-outset value"
+    },
+    "borderImageRepeat": {
+      "type": "string",
+      "enum": ["stretch", "repeat", "round", "space"],
+      "description": "CSS border-image-repeat value"
+    },
+    "borderImageSource": {
+      "type": "string",
+      "pattern": "^(url\\(.+\\)|linear-gradient\\(.+\\)|radial-gradient\\(.+\\)|conic-gradient\\(.+\\)|none)$",
+      "description": "CSS border-image-source value"
+    }
+  }
+} 

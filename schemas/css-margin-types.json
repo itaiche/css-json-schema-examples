@@ -1,0 +1,19 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "CSS Margin Types",
+  "description": "CSS margin-specific data types following MDN specifications",
+  "$defs": {
+    "marginValue": {
+      "oneOf": [
+        { "$ref": "css-data-types.json#/$defs/lengthPercentage" },
+        { "type": "string", "enum": ["auto"] },
+        { "$ref": "css-data-types.json#/$defs/cssVariable" }
+      ],
+      "description": "CSS margin value: <length-percentage> | auto"
+    },
+    "marginShorthand": {
+      "type": "string",
+      "description": "CSS margin shorthand: 1-4 values of <length-percentage> | auto (top, right, bottom, left)"
+    }
+  }
+} 

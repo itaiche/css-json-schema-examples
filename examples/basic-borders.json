@@ -1,0 +1,48 @@
+{
+  "title": "Basic Border Examples",
+  "description": "Simple border configurations using shorthand and individual properties",
+  "examples": [
+    {
+      "name": "Simple solid border",
+      "border": "1px solid black"
+    },
+    {
+      "name": "Thick dashed border with color",
+      "border": "3px dashed #ff0000"
+    },
+    {
+      "name": "Border with keyword width",
+      "border": "thick double blue"
+    },
+    {
+      "name": "Individual border properties",
+      "borderWidth": "2px",
+      "borderStyle": "solid",
+      "borderColor": "#333333"
+    },
+    {
+      "name": "Different styles per side",
+      "borderTop": "1px solid red",
+      "borderRight": "2px dashed green",
+      "borderBottom": "3px dotted blue",
+      "borderLeft": "thick solid orange"
+    },
+    {
+      "name": "Individual side properties",
+      "borderTopWidth": "1px",
+      "borderTopStyle": "solid",
+      "borderTopColor": "crimson",
+      "borderRightWidth": "medium",
+      "borderRightStyle": "dashed",
+      "borderRightColor": "#00ff00"
+    },
+    {
+      "name": "No border",
+      "border": "none"
+    },
+    {
+      "name": "Hidden border (for tables)",
+      "borderStyle": "hidden"
+    }
+  ]
+} 

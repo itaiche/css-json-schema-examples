@@ -1,0 +1,84 @@
+{
+  "title": "Border Image Examples",
+  "description": "Examples using border-image properties for decorative borders",
+  "examples": [
+    {
+      "name": "Simple gradient border",
+      "borderImageSource": "linear-gradient(45deg, red, blue)",
+      "borderImageSlice": "1"
+    },
+    {
+      "name": "Image border with URL",
+      "borderImageSource": "url('decorative-border.png')",
+      "borderImageSlice": "30",
+      "borderImageWidth": "15px",
+      "borderImageRepeat": "repeat"
+    },
+    {
+      "name": "Radial gradient border",
+      "borderImageSource": "radial-gradient(circle, #ff0000, #0000ff)",
+      "borderImageSlice": "1",
+      "borderImageWidth": "5px"
+    },
+    {
+      "name": "Complex border image with all properties",
+      "borderImageSource": "url('fancy-frame.svg')",
+      "borderImageSlice": "20 fill",
+      "borderImageWidth": "10px 20px",
+      "borderImageOutset": "5px",
+      "borderImageRepeat": "round"
+    },
+    {
+      "name": "Conic gradient border",
+      "borderImageSource": "conic-gradient(from 0deg, red, yellow, green, blue, red)",
+      "borderImageSlice": "1",
+      "borderImageWidth": "3px"
+    },
+    {
+      "name": "Border image with different repeat values",
+      "borderImageSource": "url('pattern.png')",
+      "borderImageSlice": "15",
+      "borderImageWidth": "15px",
+      "borderImageRepeat": "space"
+    },
+    {
+      "name": "Stretched border image",
+      "borderImageSource": "linear-gradient(to right, gold, orange)",
+      "borderImageSlice": "1",
+      "borderImageWidth": "8px",
+      "borderImageRepeat": "stretch"
+    },
+    {
+      "name": "Border image with outset",
+      "borderImageSource": "url('ornate-border.jpg')",
+      "borderImageSlice": "25",
+      "borderImageWidth": "20px",
+      "borderImageOutset": "10px",
+      "borderImageRepeat": "repeat"
+    },
+    {
+      "name": "No border image (disabled)",
+      "borderImageSource": "none"
+    },
+    {
+      "name": "Complex slice values",
+      "borderImageSource": "url('detailed-frame.png')",
+      "borderImageSlice": "10 20 30 40",
+      "borderImageWidth": "auto",
+      "borderImageRepeat": "round"
+    },
+    {
+      "name": "Percentage-based slice",
+      "borderImageSource": "linear-gradient(90deg, purple, pink)",
+      "borderImageSlice": "25% 50%",
+      "borderImageWidth": "1px"
+    },
+    {
+      "name": "Border image with fill keyword",
+      "borderImageSource": "url('textured-background.png')",
+      "borderImageSlice": "30 fill",
+      "borderImageWidth": "20px",
+      "borderImageRepeat": "repeat"
+    }
+  ]
+} 

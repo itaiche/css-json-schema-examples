@@ -1,0 +1,134 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "type": "object",
+  "title": "CSS Border Properties",
+  "description": "CSS border properties fully compliant with CSS specifications",
+  "properties": {
+    "border": {
+      "$ref": "css-border-types.json#/$defs/borderShorthand",
+      "description": "Shorthand property: <line-width> || <line-style> || <color>",
+      "examples": ["1px solid red", "2px dashed #ff0000", "thick double blue", "none"]
+    },
+    "borderWidth": {
+      "$ref": "css-border-types.json#/$defs/borderWidth",
+      "description": "Sets the width of all four borders"
+    },
+    "borderStyle": {
+      "$ref": "css-border-types.json#/$defs/borderStyle",
+      "description": "Sets the line style of all four borders"
+    },
+    "borderColor": {
+      "$ref": "css-border-types.json#/$defs/borderColor",
+      "description": "Sets the color of all four borders"
+    },
+    "borderTop": {
+      "$ref": "css-border-types.json#/$defs/borderShorthand",
+      "description": "Shorthand for border-top-width, border-top-style, and border-top-color"
+    },
+    "borderRight": {
+      "$ref": "css-border-types.json#/$defs/borderShorthand",
+      "description": "Shorthand for border-right-width, border-right-style, and border-right-color"
+    },
+    "borderBottom": {
+      "$ref": "css-border-types.json#/$defs/borderShorthand",
+      "description": "Shorthand for border-bottom-width, border-bottom-style, and border-bottom-color"
+    },
+    "borderLeft": {
+      "$ref": "css-border-types.json#/$defs/borderShorthand",
+      "description": "Shorthand for border-left-width, border-left-style, and border-left-color"
+    },
+    "borderTopWidth": {
+      "$ref": "css-border-types.json#/$defs/borderWidth",
+      "description": "Sets the width of the top border"
+    },
+    "borderRightWidth": {
+      "$ref": "css-border-types.json#/$defs/borderWidth",
+      "description": "Sets the width of the right border"
+    },
+    "borderBottomWidth": {
+      "$ref": "css-border-types.json#/$defs/borderWidth",
+      "description": "Sets the width of the bottom border"
+    },
+    "borderLeftWidth": {
+      "$ref": "css-border-types.json#/$defs/borderWidth",
+      "description": "Sets the width of the left border"
+    },
+    "borderTopStyle": {
+      "$ref": "css-border-types.json#/$defs/borderStyle",
+      "description": "Sets the line style of the top border"
+    },
+    "borderRightStyle": {
+      "$ref": "css-border-types.json#/$defs/borderStyle",
+      "description": "Sets the line style of the right border"
+    },
+    "borderBottomStyle": {
+      "$ref": "css-border-types.json#/$defs/borderStyle",
+      "description": "Sets the line style of the bottom border"
+    },
+    "borderLeftStyle": {
+      "$ref": "css-border-types.json#/$defs/borderStyle",
+      "description": "Sets the line style of the left border"
+    },
+    "borderTopColor": {
+      "$ref": "css-border-types.json#/$defs/borderColor",
+      "description": "Sets the color of the top border"
+    },
+    "borderRightColor": {
+      "$ref": "css-border-types.json#/$defs/borderColor",
+      "description": "Sets the color of the right border"
+    },
+    "borderBottomColor": {
+      "$ref": "css-border-types.json#/$defs/borderColor",
+      "description": "Sets the color of the bottom border"
+    },
+    "borderLeftColor": {
+      "$ref": "css-border-types.json#/$defs/borderColor",
+      "description": "Sets the color of the left border"
+    },
+    "borderRadius": {
+      "$ref": "css-border-types.json#/$defs/borderRadius",
+      "description": "Rounds the corners of an element's border"
+    },
+    "borderTopLeftRadius": {
+      "$ref": "css-data-types.json#/$defs/lengthPercentage",
+      "description": "Rounds the top-left corner of an element's border"
+    },
+    "borderTopRightRadius": {
+      "$ref": "css-data-types.json#/$defs/lengthPercentage",
+      "description": "Rounds the top-right corner of an element's border"
+    },
+    "borderBottomLeftRadius": {
+      "$ref": "css-data-types.json#/$defs/lengthPercentage",
+      "description": "Rounds the bottom-left corner of an element's border"
+    },
+    "borderBottomRightRadius": {
+      "$ref": "css-data-types.json#/$defs/lengthPercentage",
+      "description": "Rounds the bottom-right corner of an element's border"
+    },
+    "borderImage": {
+      "$ref": "css-border-types.json#/$defs/borderShorthand",
+      "description": "Shorthand for border-image-source, border-image-slice, border-image-width, border-image-outset, and border-image-repeat"
+    },
+    "borderImageSource": {
+      "$ref": "css-border-image-types.json#/$defs/borderImageSource",
+      "description": "Specifies the image to use as a border"
+    },
+    "borderImageSlice": {
+      "$ref": "css-border-image-types.json#/$defs/borderImageSlice",
+      "description": "Divides the border image into regions"
+    },
+    "borderImageWidth": {
+      "$ref": "css-border-image-types.json#/$defs/borderImageWidth",
+      "description": "Sets the width of the border image"
+    },
+    "borderImageOutset": {
+      "$ref": "css-border-image-types.json#/$defs/borderImageOutset",
+      "description": "Sets the distance by which the border image area extends beyond the border box"
+    },
+    "borderImageRepeat": {
+      "$ref": "css-border-image-types.json#/$defs/borderImageRepeat",
+      "description": "Defines how the edge regions of the border image are sampled and tiled"
+    }
+  },
+  "additionalProperties": false
+} 

@@ -1,0 +1,76 @@
+{
+  "title": "Border Radius Examples",
+  "description": "Different ways to create rounded corners with border-radius",
+  "examples": [
+    {
+      "name": "Simple rounded corners",
+      "border": "2px solid #007bff",
+      "borderRadius": "5px"
+    },
+    {
+      "name": "Highly rounded (pill shape)",
+      "border": "1px solid green",
+      "borderRadius": "50px"
+    },
+    {
+      "name": "Perfect circle (50%)",
+      "border": "3px solid red",
+      "borderRadius": "50%"
+    },
+    {
+      "name": "Individual corner radius",
+      "border": "2px solid purple",
+      "borderTopLeftRadius": "10px",
+      "borderTopRightRadius": "20px",
+      "borderBottomLeftRadius": "30px",
+      "borderBottomRightRadius": "40px"
+    },
+    {
+      "name": "Top corners only",
+      "border": "1px solid orange",
+      "borderTopLeftRadius": "15px",
+      "borderTopRightRadius": "15px"
+    },
+    {
+      "name": "Asymmetric corners",
+      "border": "2px solid teal",
+      "borderTopLeftRadius": "0",
+      "borderTopRightRadius": "25px",
+      "borderBottomLeftRadius": "25px",
+      "borderBottomRightRadius": "0"
+    },
+    {
+      "name": "Percentage-based radius",
+      "border": "1px solid crimson",
+      "borderRadius": "25%"
+    },
+    {
+      "name": "Mixed units",
+      "border": "2px solid navy",
+      "borderTopLeftRadius": "1em",
+      "borderTopRightRadius": "20px",
+      "borderBottomLeftRadius": "10%",
+      "borderBottomRightRadius": "0.5rem"
+    },
+    {
+      "name": "Large radius for bubble effect",
+      "border": "1px solid lightblue",
+      "borderRadius": "100px"
+    },
+    {
+      "name": "Calc() in border radius",
+      "border": "1px solid darkgreen",
+      "borderRadius": "calc(10px + 5px)"
+    },
+    {
+      "name": "CSS variable radius",
+      "border": "2px solid gold",
+      "borderRadius": "var(--border-radius, 8px)"
+    },
+    {
+      "name": "Card-like appearance",
+      "border": "1px solid #e0e0e0",
+      "borderRadius": "8px"
+    }
+  ]
+} 

@@ -1,0 +1,94 @@
+{
+  "title": "Advanced CSS Values Examples",
+  "description": "Borders using calc(), CSS variables, different units, and color formats",
+  "examples": [
+    {
+      "name": "CSS variables",
+      "borderWidth": "var(--border-width)",
+      "borderStyle": "solid",
+      "borderColor": "var(--brand-color, #007bff)"
+    },
+    {
+      "name": "Calc() expressions",
+      "borderWidth": "calc(1px + 2px)",
+      "borderStyle": "solid",
+      "borderColor": "black"
+    },
+    {
+      "name": "Different length units",
+      "borderTopWidth": "0.125rem",
+      "borderRightWidth": "2px",
+      "borderBottomWidth": "0.1em",
+      "borderLeftWidth": "1pt",
+      "borderStyle": "solid",
+      "borderColor": "navy"
+    },
+    {
+      "name": "Viewport units",
+      "borderWidth": "1vw",
+      "borderStyle": "dashed",
+      "borderColor": "purple"
+    },
+    {
+      "name": "RGB colors",
+      "border": "2px solid rgb(255, 0, 0)"
+    },
+    {
+      "name": "RGBA colors with transparency",
+      "border": "3px solid rgba(0, 255, 0, 0.5)"
+    },
+    {
+      "name": "HSL colors",
+      "border": "1px solid hsl(240, 100%, 50%)"
+    },
+    {
+      "name": "HSLA colors with transparency",
+      "border": "2px solid hsla(120, 50%, 50%, 0.8)"
+    },
+    {
+      "name": "Hex colors with alpha",
+      "border": "1px solid #ff000080"
+    },
+    {
+      "name": "3-digit hex",
+      "border": "2px solid #f0f"
+    },
+    {
+      "name": "Named colors",
+      "borderTop": "1px solid lightsteelblue",
+      "borderRight": "2px solid mediumaquamarine",
+      "borderBottom": "1px solid palevioletred",
+      "borderLeft": "2px solid darkslategray"
+    },
+    {
+      "name": "Current color and transparent",
+      "borderTop": "1px solid currentColor",
+      "borderBottom": "1px solid transparent"
+    },
+    {
+      "name": "All border styles",
+      "borderTopStyle": "none",
+      "borderRightStyle": "hidden",
+      "borderBottomStyle": "dotted",
+      "borderLeftStyle": "dashed",
+      "borderWidth": "2px",
+      "borderColor": "black"
+    },
+    {
+      "name": "More border styles",
+      "borderTopStyle": "solid",
+      "borderRightStyle": "double",
+      "borderBottomStyle": "groove",
+      "borderLeftStyle": "ridge",
+      "borderWidth": "3px",
+      "borderColor": "gray"
+    },
+    {
+      "name": "Even more border styles",
+      "borderTopStyle": "inset",
+      "borderBottomStyle": "outset",
+      "borderWidth": "4px",
+      "borderColor": "silver"
+    }
+  ]
+} 

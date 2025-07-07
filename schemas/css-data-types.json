@@ -1,0 +1,22 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "CSS Data Types",
+  "description": "Basic CSS data types that can be reused across multiple properties",
+  "$defs": {
+    "lengthValue": {
+      "type": "string",
+      "pattern": "^(-?\\d+(\\.\\d+)?(px|em|rem|ex|ch|ic|lh|rlh|vw|vh|vi|vb|vmin|vmax|cm|mm|Q|in|pc|pt|cap|rcap|rch|rex|rfw|ric|rlh|rrem|rvw|rvh|rvmin|rvmax|dvw|dvh|dvmin|dvmax|lvw|lvh|lvmin|lvmax|svw|svh|svmin|svmax)|0|calc\\(.+\\)|var\\(.+\\))$",
+      "description": "CSS <length> value with all units, calc(), and CSS variables"
+    },
+    "lengthPercentage": {
+      "type": "string",
+      "pattern": "^(-?\\d+(\\.\\d+)?(px|em|rem|ex|ch|ic|lh|rlh|vw|vh|vi|vb|vmin|vmax|cm|mm|Q|in|pc|pt|cap|rcap|rch|rex|rfw|ric|rlh|rrem|rvw|rvh|rvmin|rvmax|dvw|dvh|dvmin|dvmax|lvw|lvh|lvmin|lvmax|svw|svh|svmin|svmax|%)|0|calc\\(.+\\)|var\\(.+\\))$",
+      "description": "CSS <length-percentage> value"
+    },
+    "cssVariable": {
+      "type": "string",
+      "pattern": "^var\\(\\s*--[a-zA-Z0-9_-]+\\s*(,\\s*.+\\s*)?\\)$",
+      "description": "CSS custom property (variable)"
+    }
+  }
+} 

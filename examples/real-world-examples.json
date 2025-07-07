@@ -1,0 +1,162 @@
+{
+  "title": "Real-World Border Examples",
+  "description": "Practical border configurations for common UI components and design patterns",
+  "examples": [
+    {
+      "name": "Card component",
+      "border": "1px solid #e1e5e9",
+      "borderRadius": "8px"
+    },
+    {
+      "name": "Button primary",
+      "border": "2px solid #007bff",
+      "borderRadius": "4px"
+    },
+    {
+      "name": "Button secondary",
+      "border": "1px solid #6c757d",
+      "borderRadius": "4px"
+    },
+    {
+      "name": "Input field default",
+      "border": "1px solid #ced4da",
+      "borderRadius": "4px"
+    },
+    {
+      "name": "Input field focused",
+      "border": "2px solid #80bdff",
+      "borderRadius": "4px"
+    },
+    {
+      "name": "Input field error",
+      "border": "1px solid #dc3545",
+      "borderRadius": "4px"
+    },
+    {
+      "name": "Alert success",
+      "border": "1px solid #d4edda",
+      "borderRadius": "4px",
+      "borderLeftWidth": "4px",
+      "borderLeftColor": "#28a745"
+    },
+    {
+      "name": "Alert warning",
+      "border": "1px solid #ffeaa7",
+      "borderRadius": "4px",
+      "borderLeftWidth": "4px",
+      "borderLeftColor": "#ffc107"
+    },
+    {
+      "name": "Alert error",
+      "border": "1px solid #f8d7da",
+      "borderRadius": "4px",
+      "borderLeftWidth": "4px",
+      "borderLeftColor": "#dc3545"
+    },
+    {
+      "name": "Modal dialog",
+      "border": "none",
+      "borderRadius": "12px"
+    },
+    {
+      "name": "Dropdown menu",
+      "border": "1px solid rgba(0, 0, 0, 0.15)",
+      "borderRadius": "6px"
+    },
+    {
+      "name": "Code block",
+      "border": "1px solid #e9ecef",
+      "borderRadius": "4px",
+      "borderLeft": "3px solid #007bff"
+    },
+    {
+      "name": "Table cell",
+      "borderBottom": "1px solid #dee2e6"
+    },
+    {
+      "name": "Table header",
+      "borderBottom": "2px solid #dee2e6"
+    },
+    {
+      "name": "Navigation tab active",
+      "borderTop": "3px solid #007bff",
+      "borderLeft": "1px solid #dee2e6",
+      "borderRight": "1px solid #dee2e6",
+      "borderBottom": "1px solid transparent"
+    },
+    {
+      "name": "Navigation tab inactive",
+      "border": "1px solid transparent",
+      "borderBottom": "1px solid #dee2e6"
+    },
+    {
+      "name": "Sidebar separator",
+      "borderRight": "1px solid #e9ecef"
+    },
+    {
+      "name": "Avatar circular",
+      "border": "2px solid white",
+      "borderRadius": "50%"
+    },
+    {
+      "name": "Badge",
+      "border": "none",
+      "borderRadius": "50px"
+    },
+    {
+      "name": "Chip/tag",
+      "border": "1px solid #e0e0e0",
+      "borderRadius": "16px"
+    },
+    {
+      "name": "Progress bar",
+      "border": "none",
+      "borderRadius": "4px"
+    },
+    {
+      "name": "Tooltip",
+      "border": "1px solid rgba(0, 0, 0, 0.2)",
+      "borderRadius": "4px"
+    },
+    {
+      "name": "Accordion panel",
+      "border": "1px solid #e9ecef",
+      "borderTop": "none"
+    },
+    {
+      "name": "Search input with icon",
+      "border": "1px solid #ced4da",
+      "borderRadius": "20px"
+    },
+    {
+      "name": "Dashboard widget",
+      "border": "1px solid #e3e6f0",
+      "borderRadius": "10px",
+      "borderLeft": "4px solid #4e73df"
+    },
+    {
+      "name": "Pricing card highlight",
+      "border": "2px solid #007bff",
+      "borderRadius": "8px"
+    },
+    {
+      "name": "Timeline item",
+      "borderLeft": "3px solid #007bff"
+    },
+    {
+      "name": "Chat message bubble",
+      "border": "none",
+      "borderRadius": "18px"
+    },
+    {
+      "name": "Image thumbnail",
+      "border": "1px solid #ddd",
+      "borderRadius": "4px"
+    },
+    {
+      "name": "Loading skeleton",
+      "border": "none",
+      "borderRadius": "4px"
+    }
+  ]
+} 
